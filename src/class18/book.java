@@ -6,6 +6,7 @@ public class book {
    static String publisher;
     static String writer;
 
+
     public book(String bookname, int bookprice) {
         this.bookname = bookname;
         this.bookprice = bookprice;
@@ -13,9 +14,6 @@ public class book {
         System.out.println("Book name:="+bookname);
 
         System.out.println("Book price:="+bookprice);
-
-
-
 
 
     }
